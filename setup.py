@@ -1104,7 +1104,7 @@ if not build_examples:
         dependency_links=[
             'https://github.com/kivy-garden/garden/archive/master.zip'],
         install_requires=[
-            'Kivy-Garden>=0.1.4', 'docutils', 'pygments'
+            'docutils', 'pygments'
         ],
         extra_requires={
             'tuio': ['oscpy']
